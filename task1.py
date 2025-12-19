@@ -13,7 +13,7 @@ leftover = slices % people
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
-slices = (2 * party_pizza_mini) + large + medium
+slices += party_pizza_mini
 share = slices // people
 leftover = slices % people
 print(f"Each person gets: {share}")
