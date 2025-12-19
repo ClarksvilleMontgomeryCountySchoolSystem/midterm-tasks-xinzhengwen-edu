@@ -13,3 +13,4 @@ allowance /= 2
 
 # Print final allowance
 print(f"Allowance: ${allowance}")
+
